@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/mbridge_loading_bg" android:layout_width="100dp" android:layout_height="100dp">
+    <com.mbridge.msdk.interactiveads.view.MBCircleView android:layout_gravity="center" android:id="@+id/mbridge_left" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginRight="15dp"/>
+    <com.mbridge.msdk.interactiveads.view.MBCircleView android:layout_gravity="center" android:id="@+id/mbridge_middle" android:layout_width="14dp" android:layout_height="14dp"/>
+    <com.mbridge.msdk.interactiveads.view.MBCircleView android:layout_gravity="center" android:id="@+id/mbridge_right" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginLeft="15dp"/>
+</FrameLayout>

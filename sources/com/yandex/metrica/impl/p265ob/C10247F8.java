@@ -1,0 +1,5 @@
+package com.yandex.metrica.impl.p265ob;
+
+/* renamed from: com.yandex.metrica.impl.ob.F8 */
+public interface C10247F8 {
+}

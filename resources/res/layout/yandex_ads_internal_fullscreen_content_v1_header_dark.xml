@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:baselineAligned="false">
+    <FrameLayout android:layout_width="60dp" android:layout_height="60dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/feedback" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/yandex_ads_internal_adtune_white_background"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-1dp">
+                <com.yandex.mobile.ads.fullscreen.template.view.RoundImageView android:id="@+id/icon" android:background="@drawable/yandex_ads_internal_fullscreen_content_v1_icon_background" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="4dp" android:scaleType="centerCrop" android:adjustViewBounds="true" app:yandex_corner_radius="4dp"/>
+                <com.yandex.mobile.ads.fullscreen.template.view.RoundImageView android:id="@+id/favicon" android:background="@drawable/yandex_ads_internal_fullscreen_content_v1_icon_background" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="4dp" android:scaleType="centerCrop" android:adjustViewBounds="true" app:yandex_corner_radius="4dp"/>
+            </FrameLayout>
+            <TextView android:textSize="16sp" android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/domain" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12sp" android:textColor="@android:color/white" android:id="@+id/sponsored" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textSize="12sp" android:textColor="@android:color/white" android:id="@+id/age_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yandex_ads_internal_text_divider" android:paddingStart="4dp" android:paddingEnd="4dp"/>
+            <TextView android:textSize="12sp" android:textColor="@android:color/white" android:id="@+id/age" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="@integer/yandex_ads_internal_age_max_lines"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="60dp" android:minWidth="60dp">
+        <FrameLayout android:layout_gravity="end" android:id="@+id/timer_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp">
+            <TextView android:textSize="12sp" android:textColor="#80ffffff" android:ellipsize="none" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/timer_value" android:paddingRight="24dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </FrameLayout>
+        <View android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/close" android:background="@drawable/yandex_ads_internal_fullscreen_content_v1_close_selector" android:padding="20dp" android:layout_width="60dp" android:layout_height="60dp"/>
+    </FrameLayout>
+</LinearLayout>

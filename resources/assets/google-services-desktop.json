@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "315911580369-78lu34960q486e2vkvvnn980opf2rces.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTwJklzcvMFE4WKTWTDlK-byXOq9HLP3Y"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:315911580369:ios:46800251c3903b17b633f0", 
+        "android_client_info": {
+          "package_name": "com.azurgames.stackball"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "stack-ball-6cbee.appspot.com", 
+    "project_id": "stack-ball-6cbee", 
+    "firebase_url": "https://stack-ball-6cbee.firebaseio.com", 
+    "project_number": "315911580369"
+  }
+}
